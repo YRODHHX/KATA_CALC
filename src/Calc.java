@@ -1,7 +1,7 @@
 public class Calc {
     public static String calc(String input) {
-        int a = 0;
-        int b = 0;
+        int a;
+        int b;
         boolean isRoman = false;
         String[] parts = input.split(" ");
         if (parts.length != 3) throw new IllegalArgumentException("Недопустимое выражение");
